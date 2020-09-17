@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/custom.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/custom-style.css" />
+
+    <title>Patshala 📚</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <a class="navbar-brand mb-3" href="#">
+        <img src="images/Patshala.png" width="100px" height="50px" />
+        <p style="font-size: 15px">A student's dream</p>
+      </a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto container-fluid">
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <i class="fas fa-list-ul"></i> Courses
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Technical</a>
+              <a class="dropdown-item" href="#">Management</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">E-Learner</a>
+            </div>
+          </li>
+
+          <li class="nav-item col-8">
+            <form class="form-inline my-2 my-lg-0 inbutton">
+              <input
+                class="form-control form-control-lg mr-sm-0 col-8 bg-light border-0"
+                style="border-radius: 5px 0px 0px 5px"
+                type="search"
+                placeholder="Search Button"
+                aria-label="Search"
+              />
+
+              <button
+                class="btn btn-light btn-lg my-2 my-sm-0 ml-0 col-2"
+                style="border-radius: 0px 5px 5px 0px"
+                type="submit"
+              >
+                <i class="fas fa-search text-danger"></i>
+              </button>
+            </form>
+          </li>
+        </ul>
+
+        <a
+          class="nav-link btn btn-light mx-2"
+          href="#"
+          data-toggle="popover"
+          title="Try Udemy for Business"
+          data-placement="bottom"
+          data-trigger="focus"
+          data-content="Get your team access to Udemy’s top 2,500 courses anytime,
+                 anywhere."
+          >Code Here</a
+        >
+        <a class="nav-link btn btn-light mx-2" href="#">Contact Us</a>
+        <a class="nav-link btn btn-light mx-2 rounded-circle" href="#">
+          <i class="fas fa-shopping-cart"></i>
+        </a>
+        <a class="nav-link btn btn-outline-dark" href="#">Login</a>
+        <a class="nav-link btn btn-danger mx-2" href="#">Signup</a>
+      </div>
+    </nav>
+
+    <div
+      class="jumbotron big-banner mb-0 jumbotron-fluid"
+      style="height: 500px; padding-top: 150px"
+    >
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col">
+            <div class="col-md-4 text-light">
+              <h1 style="color: #ffffff" class="display-5">
+                Top Courses for You
+              </h1>
+              <p style="font: 900" class="lead">
+                <strong>
+                  We have a library courses for you. Enter the code "e-learner"
+                  to avail 95% discount
+                </strong>
+              </p>
+            </div>
+
+            <div class="col-md-6">
+              <form class="form-inline my-2 my-lg-0">
+                <input
+                  class="form-control form-control-lg mr-sm-0 col-8 border-right-0"
+                  style="border-radius: 5px 0px 0px 5px"
+                  type="search"
+                  placeholder="Enter Search Query here"
+                  aria-label="Search"
+                />
+
+                <button
+                  class="btn btn-light btn-lg my-2 my-sm-0 col-2 border-left-0"
+                  style="border-radius: 0px 5px 5px 0px"
+                  type="submit"
+                >
+                  <i class="fas text-danger fa-search"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fresh-content text-light py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="media">
+              <i class="far fa-play-circle mr-3 display-4"></i>
+              <div class="media-body">
+                <h5 class="mt-0">Play Videos</h5>
+                Stream HD Quality Videos
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="media">
+              <i class="fas fa-ribbon mr-3 display-4"></i>
+              <div class="media-body">
+                <h5 class="mt-0">Certifications</h5>
+                Get proffesionally certified for every course you complete
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="media">
+              <i class="fas fa-spinner mr-3 display-4"></i>
+              <div class="media-body">
+                <h5 class="mt-0">Buffer</h5>
+                Zero Buffering Rates Tested in the toughest conditions
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <h3>
+        <small class="text-muted"
+          >Have a look at some of our Top Rated courses</small
+        >
+      </h3>
+      <div class="card-deck">
+        <div class="card mx-1 shadow-sm">
+          <span
+            class="badge badge-success w-50 mt-2"
+            style="position: absolute; z-index: 3"
+            >HTML CSS</span
+          >
+
+          <img
+            class="card-img-top h-50"
+            src="images/htmlcss.jpeg"
+            alt="Card image cap"
+          />
+          <div class="card-body px-2">
+            <h6>Learn Front-End Web Development</h6>
+            <p class="card-text" style="font-size: 11px">Neel Raval</p>
+            <p class="card-text">
+              <small class="text-muted">
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star-half text-warning"></i>
+                4.5 (2034)</small
+              >
+              <span class="d-block"></span>
+              <span class="float-right">
+                <small style="text-decoration: line-through" class="text-muted">
+                  50$</small
+                >35$
+              </span>
+            </p>
+          </div>
+        </div>
+
+        <div class="card mx-1">
+          <img
+            class="card-img-top h-50"
+            src="images/backend.png"
+            alt="Card image cap"
+          />
+          <div class="card-body px-2">
+            <h6>Learn Backend Development</h6>
+            <p class="card-text" style="font-size: 11px">Neel Raval</p>
+            <p class="card-text">
+              <small class="text-muted">
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star-half text-warning"></i>
+                4.6 (4573)</small
+              >
+              <span class="d-block"></span>
+              <span class="float-right">
+                <small style="text-decoration: line-through" class="text-muted">
+                  27$</small
+                >9$
+              </span>
+            </p>
+          </div>
+        </div>
+
+        <div class="card mx-1">
+          <span
+            class="badge badge-warning w-50 mt-2"
+            style="position: absolute; z-index: 3"
+            >Full Stack</span
+          >
+
+          <img
+            class="card-img-top h-50"
+            src="images/fullstack.png"
+            alt="Card image cap"
+          />
+          <div class="card-body px-2">
+            <h6>Become a Full Stack Developer</h6>
+            <p class="card-text" style="font-size: 11px">Neel Raval</p>
+            <p class="card-text">
+              <small class="text-muted">
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star-half text-warning"></i>
+                4.8 (2312)</small
+              >
+              <span class="d-block"></span>
+              <span class="float-right">
+                <small style="text-decoration: line-through" class="text-muted">
+                  69$</small
+                >27$
+              </span>
+            </p>
+          </div>
+        </div>
+
+        <div class="card mx-1">
+          <img
+            class="card-img-top h-50"
+            src="images/unity.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body px-2">
+            <h6>Learn how to make Games with Unity</h6>
+            <p class="card-text" style="font-size: 11px">Neel Raval</p>
+            <p class="card-text">
+              <small class="text-muted">
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star-half text-warning"></i>
+                4.8 (4352)</small
+              >
+              <span class="d-block"></span>
+              <span class="float-right">
+                <small style="text-decoration: line-through" class="text-muted">
+                  35$</small
+                >23$
+              </span>
+            </p>
+          </div>
+        </div>
+
+        <div class="card mx-1">
+          <span
+            class="badge badge-warning w-50 mt-2"
+            style="position: absolute; z-index: 3"
+            >Hacking</span
+          >
+
+          <img
+            class="card-img-top h-50"
+            src="images/ethicalhacking.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body px-2">
+            <h6>Learn Ethical Hacking</h6>
+            <p class="card-text" style="font-size: 11px">Neel Raval</p>
+            <p class="card-text">
+              <small class="text-muted">
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star-half text-warning"></i>
+                4.2 (1875)</small
+              >
+              <span class="d-block"></span>
+              <span class="float-right">
+                <small style="text-decoration: line-through" class="text-muted">
+                  12$</small
+                >8$
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <h3>
+        <small class="text-muted">Our top selling courses</small>
+      </h3>
+      <div class="card-deck">
+        <div class="card mx-1">
+          <span
+            class="badge badge-warning w-70 mt-2"
+            style="position: absolute; z-index: 3"
+            >Personal Development</span
+          >
+          <img
+            class="card-img-top h-50"
+            src="images/confidence.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body px-2">
+            <h6>Boost your confidence</h6>
+            <p class="card-text" style="font-size: 11px">Neel Raval</p>
+            <p class="card-text">
+              <small class="text-muted">
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star-half text-warning"></i>
+                5.0 (2675)</small
+              >
+              <span class="d-block"></span>
+              <span class="float-right">
+                <small style="text-decoration: line-through" class="text-muted">
+                  100$</small
+                >67$
+              </span>
+            </p>
+          </div>
+        </div>
+
+        <div class="card mx-1">
+          <img
+            class="card-img-top h-50"
+            src="images/pubg.webp"
+            alt="Card image cap"
+          />
+          <div class="card-body px-2">
+            <h6>Learn to play PUBG</h6>
+            <p class="card-text" style="font-size: 11px">Neel Raval</p>
+            <p class="card-text">
+              <small class="text-muted">
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star-half text-warning"></i>
+                3.6 (984)</small
+              >
+              <span class="d-block"></span>
+              <span class="float-right">
+                <small style="text-decoration: line-through" class="text-muted">
+                  17$</small
+                >6$
+              </span>
+            </p>
+          </div>
+        </div>
+
+        <div class="card mx-1">
+          <img
+            class="card-img-top h-50"
+            src="images/gre.png"
+            alt="Card image cap"
+          />
+          <div class="card-body px-2">
+            <h6>Prepare for GRE</h6>
+            <p class="card-text" style="font-size: 11px">Neel Raval</p>
+            <p class="card-text">
+              <small class="text-muted">
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star-half text-warning"></i>
+                4.2 (2367)</small
+              >
+              <span class="d-block"></span>
+              <span class="float-right">
+                <small style="text-decoration: line-through" class="text-muted">
+                  58$</small
+                >38$
+              </span>
+            </p>
+          </div>
+        </div>
+
+        <div class="card mx-1">
+          <img
+            class="card-img-top h-50"
+            src="images/ielts.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body px-2">
+            <h6>Prepare for IELTS</h6>
+            <p class="card-text" style="font-size: 11px">Neel Raval</p>
+            <p class="card-text">
+              <small class="text-muted">
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star-half text-warning"></i>
+                4.5 (658)</small
+              >
+              <span class="d-block"></span>
+              <span class="float-right">
+                <small style="text-decoration: line-through" class="text-muted">
+                  94$</small
+                >79$
+              </span>
+            </p>
+          </div>
+        </div>
+
+        <div class="card mx-1">
+          <img
+            class="card-img-top h-50"
+            src="images/Flutter.png"
+            alt="Card image cap"
+          />
+          <div class="card-body px-2">
+            <h6>Flutter</h6>
+            <p class="card-text" style="font-size: 11px">Neel Raval</p>
+            <p class="card-text">
+              <small class="text-muted">
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star-half text-warning"></i>
+                5.0 (486)</small
+              >
+              <span class="d-block"></span>
+              <span class="float-right">
+                <small style="text-decoration: line-through" class="text-muted">
+                  500$</small
+                >100$
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <h3>
+        <small class="text-muted">Various types of Courses we offer</small>
+      </h3>
+
+      <div class="row">
+        <div class="col">
+          <a href="#" class="btn btn-dark btn-block btn-lg">Technical</a>
+        </div>
+        <div class="col">
+          <a href="#" class="btn btn-danger btn-block btn-lg"
+            >Personality Development</a
+          >
+        </div>
+        <div class="col">
+          <a href="#" class="btn btn-info btn-block btn-lg"
+            >Project Development</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <h3>
+        <small class="text-muted">Get ready to learn more!</small>
+      </h3>
+
+      <div class="row">
+        <div class="col-md-4">
+          <a href="#">
+            <figure class="figure">
+              <img
+                src="images/woman_photo2.jpg"
+                style="height: 250px"
+                class="figure-img img-fluid rounded"
+                alt="A generic square placeholder image with rounded corners in a figure."
+              />
+              <figcaption class="figure-caption text-center">
+                Learn photo editing using Classic Software
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="#">
+            <figure class="figure">
+              <img
+                src="images/woman_photo1.jpeg"
+                style="height: 250px"
+                class="figure-img img-fluid rounded"
+                alt="A generic square placeholder image with rounded corners in a figure."
+              />
+              <figcaption class="figure-caption text-center">
+                Learn Photography
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="#">
+            <figure class="figure">
+              <img
+                src="images/laptop1.jpg"
+                style="height: 250px"
+                class="figure-img img-fluid rounded"
+                alt="A generic square placeholder image with rounded corners in a figure."
+              />
+              <figcaption class="figure-caption text-center">
+                Learn the Science behind a Camera Lens
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-md-3">
+          <a href="#">
+            <figure class="figure">
+              <img
+                src="images/laptop2.jpg"
+                style="height: 150px"
+                class="figure-img img-fluid rounded"
+                alt="A generic square placeholder image with rounded corners in a figure."
+              />
+              <figcaption class="figure-caption text-center">
+                Learn how to Play Instruments
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+
+        <div class="col-md-3">
+          <a href="#">
+            <figure class="figure">
+              <img
+                src="images/linux.png"
+                style="height: 150px"
+                class="figure-img img-fluid rounded"
+                alt="A generic square placeholder image with rounded corners in a figure."
+              />
+              <figcaption class="figure-caption text-center">
+                Learn how to use Linux like a PRO!
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="#">
+            <figure class="figure">
+              <img
+                src="images/terminal.png"
+                style="height: 150px"
+                class="figure-img img-fluid rounded"
+                alt="A generic square placeholder image with rounded corners in a figure."
+              />
+              <figcaption class="figure-caption text-center">
+                Learn how to use the Shell
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="#">
+            <figure class="figure">
+              <img
+                src="images/python.png"
+                style="height: 150px"
+                class="figure-img img-fluid rounded"
+                alt="A generic square placeholder image with rounded corners in a figure."
+              />
+              <figcaption class="figure-caption text-center">
+                Learn how to code in Python
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <h3>
+        <small class="text-muted">A few Topics to Learn</small>
+      </h3>
+
+      <a href="#" class="btn btn-light shadow">HTML</a>
+      <a href="#" class="btn btn-light shadow mx-1">CSS</a>
+      <a href="#" class="btn btn-light shadow mx-1">Bootstrap</a>
+      <a href="#" class="btn btn-light shadow mx-1">Javascript</a>
+      <a href="#" class="btn btn-light shadow mx-1">Django</a>
+      <a href="#" class="btn btn-light shadow mx-1">Python</a>
+      <a href="#" class="btn btn-light shadow mx-1">C++</a>
+      <a href="#" class="btn btn-light shadow mx-1">SQL</a>
+      <a href="#" class="btn btn-light shadow mx-1">Anime</a>
+    </div>
+
+    <div class="container" style="margin-top: 120px">
+      <div class="row">
+        <div class="col text-center border-right">
+          <div class="col-8 offset-1">
+            <h4>Send us your entries</h4>
+            <p class="lead" style="font-size: 15px">
+              If you have anything to say, you can come talk to us
+            </p>
+            <a href="#" class="btn btn-lg btn-danger">Contact Us</a>
+          </div>
+        </div>
+
+        <div class="col text-center">
+          <div class="col-8 offset-1">
+            <h4>Contact us</h4>
+            <p class="lead" style="font-size: 15px">
+              Reach out to us for enquiry on **********
+            </p>
+            <a href="#" class="btn btn-lg btn-danger">Talk to us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row pt-5 px-3 border-top mt-5" style="font-size: 13px">
+      <div class="col">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link text-info" href="#"><b>Reach out to us</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-info" href="#"><b>Code Here</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-info" href="#">Download our Mobile App</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link text-info" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-info" href="#">Careers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-info" href="#">Blog</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link text-info" href="#">Topics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-info" href="#">Support</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-info" href="#">Affiliate</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col">
+        <form>
+          <div class="form-group col-6 float-right">
+            <select class="form-control" id="exampleFormControlSelect2">
+              <option><i class="fas fa-globe"></i> English</option>
+              <option>Hindi</option>
+              <option>Chinese</option>
+              <option>Tamil</option>
+              <option>Telegu</option>
+            </select>
+          </div>
+        </form>
+      </div>
+    </div>
+    <nav class="nav mt-5 ml-3" style="font-size: 12px">
+      <span class="nav-link active text-muted font-weight-bold"
+        >Local Home Pages</span
+      >
+      <span class="nav-link">English</span>
+      <a class="nav-link text-info" href="#">Hindi</a>
+      <a class="nav-link text-info" href="#">Français</a>
+      <a class="nav-link text-info" href="#">Português</a>
+      <a class="nav-link text-info" href="#">日本語</a>
+    </nav>
+    <hr />
+
+    <div class="row" style="font-size: 12px">
+      <div class="col pl-5">
+        <img
+          src="images/Patshala.png"
+          width="100px"
+          height="40px"
+          class="mr-5"
+        />
+        <span>Copyright © 2020 Patshala, Inc.</span>
+      </div>
+      <div class="col">
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link active text-info" href="#">Terms</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-info" href="#">Privacy and Cookie Police</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-info" href="#">Intellectual Property</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      $(function () {
+        $('[data-toggle="popover"]').popover();
+      });
+    </script>
+  </body>
+</html>
