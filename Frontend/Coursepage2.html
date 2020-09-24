@@ -1,0 +1,690 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="Coursepage2.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    
+    <link rel="stylesheet" href="css/custom.css" />
+    <title>Course page 2</title>
+  </head>
+  <body>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <a class="navbar-brand mb-3" href="#">
+      <img src="images/Patshala.png" width="100px" height="50px" />
+      <p style="font-size: 15px">A student's dream</p>
+    </a>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto container-fluid">
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <i class="fas fa-list-ul"></i> Courses
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Technical</a>
+            <a class="dropdown-item" href="#">Management</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">E-Learner</a>
+          </div>
+        </li>
+
+        <li class="nav-item col-8">
+          <form class="form-inline my-2 my-lg-0 inbutton">
+            <input
+              class="form-control form-control-lg mr-sm-0 col-8 bg-light border-0"
+              style="border-radius: 5px 0px 0px 5px"
+              type="search"
+              placeholder="Search Button"
+              aria-label="Search"
+            />
+
+            <button
+              class="btn btn-light btn-lg my-2 my-sm-0 ml-0 col-2"
+              style="border-radius: 0px 5px 5px 0px"
+              type="submit"
+            >
+              <i class="fas fa-search text-danger"></i>
+            </button>
+          </form>
+        </li>
+      </ul>
+
+      <a
+        class="nav-link btn btn-light mx-2"
+        href="Coursepage2.html"
+        data-toggle="popover"
+        title="Try Udemy for Business"
+        data-placement="bottom"
+        data-trigger="focus"
+        data-content="Get your team access to Udemy’s top 2,500 courses anytime,
+               anywhere."
+        >Courses</a
+      >
+      <a class="nav-link btn btn-light mx-2" href="#">Contact Us</a>
+      <a class="nav-link btn btn-light mx-2 rounded-circle" href="#">
+        <i class="fas fa-shopping-cart"></i>
+      </a>
+      <a class="nav-link btn btn-outline-dark" href="#">Login</a>
+      <a class="nav-link btn btn-danger mx-2" href="#">Signup</a>
+    </div>
+  </nav>
+
+  <!--Card Group-->
+  <!--Cards 1-->
+  <div class="container-mt-3">
+    <h3 id="card1">Basic Programming Languages</h3>
+    <div class="card-deck">
+        <div class="card">
+            <img class="card-img-top" src="c.png" alt="C-Programming">
+            <div class="card-body">
+                <h5 class="card-title">C-PROGRAMMING</h5>  
+                <p class="card-text">C is a powerful general-purpose programming language.Used to develop software like OS, databases, compilers, 
+                   and so on. </p> 
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal1">Watch Video</button>
+                <!-- Modal1-->
+                <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Video</h5>
+                              </div>
+                              <div class="modal-body">
+                                <iframe width="400" height="300" src="https://www.youtube.com/embed/-CpG3oATGIs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                              </div>
+                              <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>   
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="java.png" alt="Java">
+            <div class="card-body">
+                <h5 class="card-title">JAVA</h5>
+                <p>Java is a class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.</p>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal2">Watch Video</button>
+                <!-- Modal2-->
+                <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Video</h5>
+                              </div>
+                              <div class="modal-body">
+                                <iframe width="400" height="300" src="https://www.youtube.com/embed/hBh_CC5y8-s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                              </div>
+                              <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="c++.png" alt="C++">
+              <div class="card-body">
+                  <h5 class="card-title">C++</h5> 
+                  <p>C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or "C with Classes".</p>
+                  <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal3">Watch Video</button>
+                  <!-- Modal3-->
+                  <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Video</h5>
+                                </div>
+                                <div class="modal-body">
+                                    <iframe width="400" height="300" src="https://www.youtube.com/embed/_bYFu9mBnr4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+        </div>
+    </div>
+</div>
+  <!--Cards 2-->
+  <div class="container-mt-4">
+      <h3>Web Development</h3>
+      <div class="card-deck">
+          <div class="card cards2">
+              <img class="card-img-top" src="html.png" alt="html">
+              <div class="card-body">
+                  <h5 class="card-title">HTML</h5>
+                  <p>HTML is the standard markup language for documents designed to be displayed in a web browser.</p>
+                  <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal4">Watch Video</button>
+                  <!-- Modal4-->
+                  <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Video</h5>
+                                </div>
+                                <div class="modal-body">
+                                    <iframe width="400" height="300" src="https://www.youtube.com/embed/UB1O30fR-EE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+          </div>
+          <div class="card cards2">
+            <img class="card-img-top" src="css.png" alt="css">
+              <div class="card-body">
+                  <h5 class="card-title">CSS</h5> 
+                  <p>CSS is a style sheet language used for describing the presentation of a document written in HTML.</p>
+                  <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal5">Watch Video</button>
+                  <!-- Modal5-->
+                  <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Video</h5>
+                                </div>
+                                <div class="modal-body">
+                                    <iframe width="400" height="300" src="https://www.youtube.com/embed/yfoY53QXEnI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+          </div>
+          <div class="card cards2">
+            <img class="card-img-top" src="bootstrap.png" alt="bootstrap">
+            <div class="card-body">
+                <h5 class="card-title">BOOTSTRAP</h5>
+                <p>Bootstrap is a open-source CSS framework directed at responsive, mobile'sfront-end web development.</p>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal6">Watch Video</button>
+                  <!-- Modal6-->
+                  <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Video</h5>
+                                </div>
+                                <div class="modal-body">
+                                    <iframe width="400" height="300" src="https://www.youtube.com/embed/5GcQtLDGXy8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+           </div>
+          <div class="card cards2">
+            <img class="card-img-top" src="js.png" alt="js">
+              <div class="card-body">
+                  <h5 class="card-title">JAVASCRIPT</h5>
+                  <p>JS is a programming language mostly used in web development, inserted anywhere within the HTML code.</p>
+                  <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal7">Watch Video</button>
+                  <!-- Modal7-->
+                  <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Video</h5>
+                                </div>
+                                <div class="modal-body">
+                                  <iframe width="400" height="300" src="https://www.youtube.com/embed/Qqx_wzMmFeA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+        </div>
+      </div>
+  </div>
+  <!--Cards-2.1-->
+  <div class="container-mt-4">
+      <div class="card-deck">
+          <div class="card">
+              <img class="card-img-top" src="angularjs.png" alt="Angularjs">
+              <div class="card-body">
+                  <h5 class="card-title">ANGULAR JS</h5>
+                  <p>AngularJS is a JS-based open-source front-end web framework mainly maintained by Google.</p>
+                  <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal8">Watch Video</button>
+                  <!-- Modal8-->
+                  <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Video</h5>
+                                </div>
+                                <div class="modal-body">
+                                    <iframe width="400" height="300" src="https://www.youtube.com/embed/nO1ROKMjPqI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="reactjs.png" alt="Reactjs">
+              <div class="card-body">
+                  <h5 class="card-title">REACTJS</h5>
+                  <p>React is an open-source JavaScript library for building user interfaces or UI components.</p>
+                  <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal9">Watch Video</button>
+                  <!-- Modal9-->
+                  <div class="modal fade" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Video</h5>
+                                </div>
+                                <div class="modal-body">
+                                    <iframe width="400" height="300" src="https://www.youtube.com/embed/DLX62G4lc44" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="nodejs.png" alt="nodejs">
+            <div class="card-body">
+                <h5 class="card-title">NODEJS</h5>
+                <p>Node.js is an open-source, cross-platform, JS runtime environment that executes JS code outside a browser.</p>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal10">Watch Video</button>
+                  <!-- Modal10-->
+                  <div class="modal fade" id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Video</h5>
+                                </div>
+                                <div class="modal-body">
+                                    <iframe width="400" height="300" src="https://www.youtube.com/embed/JnvKXcSI7yk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="django.png" alt="django">
+              <div class="card-body">
+                  <h5 class="card-title">PYTHON DJANGO</h5>
+                  <p>Django is a Python-based free and open-source web framework.</p>
+                  <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal11">Watch Video</button>
+                  <!-- Modal11-->
+                  <div class="modal fade" id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Video</h5>
+                                </div>
+                                <div class="modal-body">
+                                    <iframe width="400" height="300" src="https://www.youtube.com/embed/JT80XhYJdBw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+        </div>
+      </div>
+  </div>
+  <!--Cards 3-->
+  <div class="container-mt-4">
+    <h3>Latest Technologies</h3>
+    <div class="card-deck">
+        <div class="card cards2">
+            <img class="card-img-top" src="iot.png" alt="iot">
+            <div class="card-body">
+                <h5 class="card-title">IOT</h5>
+                <p>The Internet of things is a system of interrelated computing devices, mechanical and digital machines.</p>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal12">Watch Video</button>
+                <!-- Modal12-->
+                <div class="modal fade" id="exampleModal12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Video</h5>
+                              </div>
+                              <div class="modal-body">
+                                  <iframe width="400" height="300" src="https://www.youtube.com/embed/h0gWfVCSGQQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                             </div>
+                              <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>   
+        </div>
+      <div class="card cards2">
+          <img class="card-img-top" src="python.png" alt="python">
+          <div class="card-body">
+              <h5 class="card-title">PYTHON</h5>
+              <p>Python is an interpreted, high-level, general-purpose programming language. </p>
+              <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal13">Watch Video</button>
+                <!-- Modal13-->
+                <div class="modal fade" id="exampleModal13" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Video</h5>
+                              </div>
+                              <div class="modal-body">
+                                <iframe width="400" height="300" src="https://www.youtube.com/embed/4F2m91eKmts" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                              </div>
+                              <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+          </div>
+      </div>
+      <div class="card cards2">
+          <img class="card-img-top" src="bc.png" alt="blockchain">
+          <div class="card-body">
+              <h5 class="card-title">BLOCK CHAIN</h5>
+              <p>A blockchain, originally block chain, is a growing list of records, called blocks, that are linked using cryptography. </p>
+              <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal14">Watch Video</button>
+                <!-- Modal14-->
+                <div class="modal fade" id="exampleModal14" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Video</h5>
+                              </div>
+                              <div class="modal-body">
+                                <iframe width="400" height="300" src="https://www.youtube.com/embed/QCvL-DWcojc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                              </div>
+                              <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+          </div>
+      </div>
+      <div class="card cards2">
+        <img class="card-img-top" src="ai.png" alt="AI">
+        <div class="card-body">
+            <h5 class="card-title">AI</h5>
+            <p>AI refers to the simulation of human intelligence in machines, programmed to think and mimic human actions.</p>
+            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal15">Watch Video</button>
+              <!-- Modal15-->
+              <div class="modal fade" id="exampleModal15" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                      <div class="modal-content">
+                          <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Video</h5>
+                            </div>
+                            <div class="modal-body">
+                                <iframe width="400" height="300" src="https://www.youtube.com/embed/JMUxmLyrhSk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+             </div>
+        </div>
+      </div>
+    </div>
+</div>
+<!--Cards 3.1-->
+<div class="container-mt-4">
+  <div class="card-deck">
+      <div class="card">
+          <img class="card-img-top" src="ml.png" alt="Machine Learning">
+          <div class="card-body">
+              <h5 class="card-title">MACHINE LEARNING</h5>
+              <p>ML is study of computer algorithms that improve automatically through experience, which is subset of AI.</p>
+              <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal16">Watch Video</button>
+              <!-- Modal16-->
+              <div class="modal fade" id="exampleModal16" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                      <div class="modal-content">
+                          <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Video</h5>
+                            </div>
+                            <div class="modal-body">
+                                <iframe width="400" height="300" src="https://www.youtube.com/embed/GwIo3gDZCVQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                           </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+      </div>
+    <div class="card">
+        <img class="card-img-top" src="aws.png" alt="aws">
+        <div class="card-body">
+            <h5 class="card-title">AWS</h5>
+            <p>Amazon Web Services is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs.</p>
+            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal17">Watch Video</button>
+              <!-- Modal17-->
+              <div class="modal fade" id="exampleModal17" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                      <div class="modal-content">
+                          <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Video</h5>
+                            </div>
+                            <div class="modal-body">
+                                <iframe width="400" height="300" src="https://www.youtube.com/embed/k1RI5locZE4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="cybersecurity.png" alt="Cybersecurity">
+        <div class="card-body">
+            <h5 class="card-title">CYBER SECURITY</h5>
+            <p>Cybersecurity is the practice of defending servers, systems, networks, and data from malicious attacks.</p>
+            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal18">Watch Video</button>
+              <!-- Modal18-->
+              <div class="modal fade" id="exampleModal18" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                      <div class="modal-content">
+                          <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Video</h5>
+                            </div>
+                            <div class="modal-body">
+                                <iframe width="400" height="300" src="https://www.youtube.com/embed/U_P23SqJaDc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="php.png" alt="php">
+      <div class="card-body">
+          <h5 class="card-title">PHP</h5>
+          <p>PHP is a general-purpose scripting language that is especially suited to web development.</p>
+          <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal19">Watch Video</button>
+            <!-- Modal19-->
+            <div class="modal fade" id="exampleModal19" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Video</h5>
+                          </div>
+                          <div class="modal-body">
+                            <iframe width="400" height="300" src="https://www.youtube.com/embed/yXzWfZ4N4xU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </div>
+                          <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          </div>
+                      </div>
+                  </div>
+            </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Footer-->
+<div style="background: #000000;">
+  <div class="row pt-5 px-3 border-top mt-5" style="font-size: 13px; background: #000000;">
+    <div class="col">
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link text-info" href="#"><b>Reach out to us</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-info" href="#"><b>Code Here</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-info" href="#">Download our Mobile App</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col">
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link text-info" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-info" href="#">Careers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-info" href="#">Blog</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col">
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link text-info" href="#">Topics</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-info" href="#">Support</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-info" href="#">Affiliate</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col">
+      <form>
+        <div class="form-group col-6 float-right">
+          <select class="form-control" id="exampleFormControlSelect2">
+            <option><i class="fas fa-globe"></i> English</option>
+            <option>Hindi</option>
+            <option>Chinese</option>
+            <option>Tamil</option>
+            <option>Telugu</option>
+          </select>
+        </div>
+      </form>
+    </div>
+  </div>
+  <nav class="nav mt-5 ml-3" style="font-size: 12px; background: #000000;">
+    <span class="nav-link active text-muted font-weight-bold"
+      >Local Home Pages</span
+    >
+    <span class="nav-link">English</span>
+    <a class="nav-link text-info" href="#">Hindi</a>
+    <a class="nav-link text-info" href="#">Français</a>
+    <a class="nav-link text-info" href="#">Português</a>
+    <a class="nav-link text-info" href="#">日本語</a>
+  </nav>
+  <hr />
+
+  <div class="row" style="font-size: 12px; background: #000000;">
+    <div class="col pl-5">
+      <img
+        src="images/Patshala.png"
+        width="100px"
+        height="40px"
+        class="mr-5"
+      />
+      <span>Copyright © 2020 Patshala, Inc.</span>
+    </div>
+    <div class="col">
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active text-info" href="#">Terms</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-info" href="#">Privacy and Cookie Police</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-info" href="#">Intellectual Property</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>

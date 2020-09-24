@@ -1,0 +1,101 @@
+.container{
+    margin-top: 20px;
+}
+#editor { 
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.jumbotron-fluid{
+    margin-top: 0px;
+}
+.btn-light{
+    padding: 10px;
+}
+
+
+
+
+ .texteditor{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    color: #333;
+  }
+  .wrapper {
+    background-color: #fff;
+    width: 830pt;
+    padding-left: 10pt;
+    padding-right: 10pt;
+    padding-top: 20pt;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px rgba(0,0,0,0.1);
+  }
+  input[type="text"] {
+    height: 20pt;
+    width: 10%;
+    padding: 0;
+    border: 0;
+    outline: none;
+    font-size: 14px;
+    margin-top: 5pt;
+  }
+  .options {
+    width: 100%;
+    height: 30pt;
+    /*margin-top: 5pt;
+    border-top: 1px solid #ddd;*/
+  }
+  
+  iframe {
+    border: 0;
+    width: 50%;
+    margin-bottom: 5pt;
+    height: 250pt;
+  }
+  .seperator {
+    display: inline;
+    border-left: 1px solid #ddd;
+    height: 30pt;
+  }
+  .btn-dark{
+    margin: 0;
+    padding: 0;
+    height: 30pt;
+    width: 30pt;
+    background-color: #fff;
+    border: 0;
+    cursor: pointer;
+    color: #333;
+  }
+  .btn-dark:active {
+    color: #333;
+  }
+  select {
+    height: 30pt;
+    -webkit-appearance: none;
+    border: 0;
+    padding-left: 5pt;
+    padding-right: 5pt;
+    outline: none;
+  }
+  input[type="number"] {
+    height: 30pt;
+    border: 0;
+    padding: 0;
+    padding-left: 5pt;
+    padding-right: 5pt;
+    outline: none;
+  }
+
+.btn-warning{
+    margin-top: 10px;
+}
+/*.btn-outline-warning{
+    margin:auto;
+    display: block;
+}
